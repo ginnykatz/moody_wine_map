@@ -30,10 +30,8 @@ Repository:
 
 📁Index.html 
 
-![index map](img\index_map_shot.png)
 
-
-
+![index_map_shot](img/index_map_shot.PNG)
 
 
 > created with Leaflet and the traditional method proposed by GEOG 571
@@ -48,13 +46,13 @@ Repository:
 
 
 
-![indexg map](img\indexg_map_shot.png)
+![indexg map](img/indexg_map_shot.PNG)
 
 > created with Mapbox GL text sharing editor for mapbox GL
 >
 > **Benefits**: Intuitive- get your HTML script directly from Mapbox and include all of the styling and positioning data from your mapbox Studio, including tilt. 
 >
-> ![mapbox helper](img\mapboxgl_index_helper.png)
+> ![mapbox helper](img/mapboxgl_index_helper.PNG)
 >
 > **Con**: Does not let you add unique attribution and it less flexible to changes when in HTML. 
 
