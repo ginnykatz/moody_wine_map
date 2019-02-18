@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base Map Design using Mapbox</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        html {
+            /*full screen the map*/
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <!-- Stylesheet -->
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css" rel='stylesheet'/>
+    <!-- Javascript Libraries -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <!-- mapbox gl js -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js"></script>
+    <!-- leaflet mapbox js -->
+    <script src="https://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+
+</head>
+<body>
+<div id="map"></div>
+<script>
+    var map = L.map('map').setView([48.852671, 2.351689], 13);
+
+    mapbox_token = 'pk.eyJ1IjoiZ2lubnlrYXR6IiwiYSI6ImNqZ2J2M2U0Nzl1NzEyd21kZHk4czVxdXgifQ.4KrWqM_F46SXCnyhyZj02A';
+
+    var gl = L.mapboxGL({
+        accessToken: mapbox_token,
+        style: 'assets/style.json',
+        attribution: 'Made with moods by <a href="">Ginny Katz</a> based on the <a href="assets/license.txt">Mapbox basic style</a>'
+    }).addTo(map);
+</script>
+</body>
+</html>
