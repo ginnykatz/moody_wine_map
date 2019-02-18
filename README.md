@@ -15,9 +15,9 @@ Two methods for publishing the map were used to compared differences: Leaflet an
 
 
 
-Check it out the repository
 
-http://ginnykatz.github.io/moody_wine_map
+
+
 
 
 
