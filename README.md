@@ -1,6 +1,9 @@
 # Moody Wine Map
 
 Ginny Katz
+GEOG 571
+Oregon State university 
+
 
 
 
@@ -73,4 +76,4 @@ Repository:
 > style.json
 
 
-
+![](img/logo.png)
