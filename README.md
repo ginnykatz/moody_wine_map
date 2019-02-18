@@ -30,7 +30,7 @@ Repository:
 
 📁Index.html 
 
-![](img\index_map_shot.png)
+![index map](img\index_map_shot.png)
 
 
 
@@ -48,13 +48,13 @@ Repository:
 
 
 
-![](img\indexg_map_shot.png)
+![indexg map](img\indexg_map_shot.png)
 
 > created with Mapbox GL text sharing editor for mapbox GL
 >
 > **Benefits**: Intuitive- get your HTML script directly from Mapbox and include all of the styling and positioning data from your mapbox Studio, including tilt. 
 >
-> ![](img\mapboxgl_index_helper.png)
+> ![mapbox helper](img\mapboxgl_index_helper.png)
 >
 > **Con**: Does not let you add unique attribution and it less flexible to changes when in HTML. 
 
